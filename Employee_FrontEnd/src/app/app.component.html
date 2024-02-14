@@ -1,0 +1,27 @@
+
+
+<nav class="navbar navbar-expand-sm navbar-light">
+  <a class="navbar-brand" routerLink="/">Employee Management System</a>
+
+  <ul class="navbar-nav ml-auto justify-content-end">
+      <li class="nav-item">
+          <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+      </li>
+      <li class="nav-item">
+          <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+      </li>
+  </ul>
+</nav>
+
+
+
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>
+<footer class = "footer navbar-light">
+  <div class = "container">
+      <span>Made with<a href="https://dipak491.github.io/Portfolio/"> Dipak Narkhede</a> </span>
+     
+  </div>
+</footer>
